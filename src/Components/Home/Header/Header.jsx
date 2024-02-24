@@ -13,19 +13,19 @@ export default function Header () {
 
     return(
         <div>
-        <header>
-            <nav className="navbar">
-                <a href="#" className="logo">Coffe<span>.</span></a>
-                <ul className="menu-links">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a id="close-btn" onClick={closeMenu}>CLOSE</a></li>
-                </ul>
-                <span id="menu-btn" className="material-symbols-outlined" onClick={openMenu} ><img src="" alt="" /></span>
-            </nav>
-        </header>        
+            <header className="show-mobile-menu">
+                <nav className="navbar">
+                    <a href="#" className="logo">Coffe<span>.</span></a>
+                    <ul className="menu-links">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PRODUCTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a id="close-btn" onClick={closeMenu}>CLOSE</a></li>
+                    </ul>
+                    <span id="menu-btn" className="material-symbols-outlined" onClick={openMenu} ><img src="" alt="" /></span>
+                </nav>
+            </header>        
         </div>
 
     )
