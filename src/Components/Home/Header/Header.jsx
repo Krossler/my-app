@@ -13,7 +13,7 @@ export default function Header () {
 
     return(
         <div>
-            <header className="show-mobile-menu">
+            <header>
                 <nav className="navbar">
                     <a href="#" className="logo">Coffe<span>.</span></a>
                     <ul className="menu-links">
@@ -21,8 +21,10 @@ export default function Header () {
                         <li><a href="#">PRODUCTS</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">CONTACT</a></li>
+                        fazer que retorne a funcao apartir daqui!
                         <li><a id="close-btn" onClick={closeMenu}>CLOSE</a></li>
                     </ul>
+                    fazer outra funcao igual aqui!
                     <span id="menu-btn" className="material-symbols-outlined" onClick={openMenu} ><img src="" alt="" /></span>
                 </nav>
             </header>        
