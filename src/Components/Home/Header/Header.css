@@ -80,7 +80,7 @@ header .navbar {
     }
 
     #menu-btn {
-        display: block;
+        display: initial;
     }
 
     #close-btn {
