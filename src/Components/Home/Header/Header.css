@@ -1,0 +1,119 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.navbar .logo span {
+    color: chocolate;
+}
+
+.navbar .menu-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.05rem;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover {
+    color: chocolate;
+}
+
+#menu-btn {
+    color: white;
+    cursor: pointer;
+    display: none;
+    background: url(Images/menu.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+#close-btn {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: none;
+}
+
+#close-btn:hover {
+    color: chocolate;
+}
+
+@media screen and (max-width:900px) {
+
+    header {
+        padding: 20px 20px;
+    }
+
+    header.show-mobile-menu::before {
+        content: "";
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(3px);
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+    #close-btn {
+        display: initial;
+    }
+
+    .navbar .menu-links {
+        position: fixed;
+        left: -260px;
+        top: 0;
+        flex-direction: column;
+        width: 260px;
+        height: 100vh;
+        background: white;
+        padding: 70px 40px 0;
+        transition: left 0.20s ease;
+    }
+
+    header.show-mobile-menu .navbar .menu-links{
+        left: 0;
+    }
+
+    header.show-mobile-menu .navbar hr {
+        display: flex;
+        position: relative;
+    }    
+
+    .navbar a {
+        color: black;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+
+
+}

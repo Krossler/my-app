@@ -1,0 +1,6 @@
+body {
+    height: 100vh;
+    background: url(./Components/Home/Header/Images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}

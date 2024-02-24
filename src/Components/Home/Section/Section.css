@@ -1,0 +1,62 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-section .content {
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.hero-section .content p {
+    font-weight: 600;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .content button {
+    background: white;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.hero-section .content button:hover{
+    color: white;
+    background: chocolate;
+}
+
+@media screen and (max-width:900px) {
+
+    .hero-section .content {
+        text-align: center;
+    }
+
+    .hero-section .content:is(h1, p) {
+        max-width: 100%;
+    }
+
+    .hero-section .content h1 {
+        font-size: 2.3rem;
+        line-height: 60px;
+    }
+
+    .hero-section .content button {
+        padding: 9px 18px;
+    }
+}
