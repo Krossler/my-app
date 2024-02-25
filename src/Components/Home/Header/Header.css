@@ -69,16 +69,6 @@ header .navbar {
         padding: 20px 20px;
     }
 
-   .show-mobile-menu::before {
-        content: "";
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        backdrop-filter: blur(3px);
-    }
-
     #menu-btn {
         display: initial;
     }
@@ -114,6 +104,13 @@ header .navbar {
         font-size: 1.1rem;
     }
 
-
-
+    header.show-mobile-menu::before {
+        content: "";
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(3px);
+    }
 }

@@ -13,7 +13,7 @@ export default function Header () {
 
     return(
         <div>
-            <header className="show-mobile-menu">
+            <header>
                 <nav className="navbar">
                     <a href="#" className="logo">Coffe<span>.</span></a>
                     <ul className="menu-links">
