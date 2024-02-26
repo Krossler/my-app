@@ -20,6 +20,7 @@ const Header = () => {
                         <li><Link to="/my-app/">PRODUCTS</Link></li>
                         <li><Link to="/my-app/">ABOUT</Link></li>
                         <li><Link to="/my-app/Contacto">CONTACT</Link></li>
+                        <li><Link to="/my-app/Contacto">HOLA</Link></li>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
                     </ul>
