@@ -1,19 +1,19 @@
+import { useState } from "react"
 import "./Header.css"
 
-export default function Header () {
+const Header = () => {
 
-    const header = document.querySelector("header");
+//                        
+
+    const [menu, setMenu] = useState(false);
+
     const openMenu = () => {
-        header.classList.toggle("show-mobile-menu");
-    }
-
-    const closeMenu = () => {
-        header.classList.toggle("show-mobile-menu");
+        setMenu(!menu);
     }
 
     return(
         <div>
-            <header>
+            <header className={menu ? "header":"show-mobile-menu"}>
                 <nav className="navbar">
                     <a href="#" className="logo">Coffe<span>.</span></a>
                     <ul className="menu-links">
@@ -21,14 +21,13 @@ export default function Header () {
                         <li><a href="#">PRODUCTS</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">CONTACT</a></li>
-                        fazer que retorne a funcao apartir daqui!
-                        <li><a id="close-btn" onClick={closeMenu}>CLOSE</a></li>
+                        <li><a id="close-btn" onClick={openMenu}>CLOSE</a></li>
                     </ul>
-                    fazer outra funcao igual aqui!
                     <span id="menu-btn" className="material-symbols-outlined" onClick={openMenu} ><img src="" alt="" /></span>
                 </nav>
             </header>        
         </div>
-
     )
 }
+
+export default Header;
