@@ -5,9 +5,9 @@ const Header = () => {
 
 //                        
 
-    const [menu, setMenu] = useState(false);
+    const [menu, setMenu] = useState(true);
 
-    const openMenu = () => {
+    const changeMenu = () => {
         setMenu(!menu);
     }
 
@@ -21,9 +21,9 @@ const Header = () => {
                         <li><a href="#">PRODUCTS</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">CONTACT</a></li>
-                        <li><a id="close-btn" onClick={openMenu}>CLOSE</a></li>
+                        <li><a id="close-btn" onClick={changeMenu}>CLOSE</a></li>
                     </ul>
-                    <span id="menu-btn" className="material-symbols-outlined" onClick={openMenu} ><img src="" alt="" /></span>
+                    <span id="menu-btn" className="material-symbols-outlined" onClick={changeMenu} ><img src="" alt="" /></span>
                 </nav>
             </header>        
         </div>
