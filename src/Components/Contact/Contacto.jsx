@@ -1,18 +1,18 @@
-import "./Section.css"
+import "./Contacto.css"
 
-const Section = () => {
+const Contacto = () => {
 
     return(
-        <section className="hero-section">
-            <div className="content">
-                <h1>Proba Nuestras Especialidades</h1>
+        <section className="hero-contact">
+            <div className="content2">
+                <h1>Trabaja con nostros!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Sed expedita iure cupiditate iusto exercitationem atque, 
                     blanditiis aliquam vel eligendi aliquid ab</p>
-                <button>Order Now</button>
+                <button>Enviar CV</button>
             </div>
         </section>
     )
 }
 
-export default Section;
+export default Contacto;
