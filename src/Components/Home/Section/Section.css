@@ -31,7 +31,7 @@
     font-weight: 600;
     margin-top: 38px;
     padding: 12px 30px;
-    border-radius: 6px;
+    border-radius: 40px;
     cursor: pointer;
     transition: 0.2s ease;
 }
@@ -39,6 +39,7 @@
 .hero-section .content button:hover{
     color: white;
     background: chocolate;
+    transition: 0.4s ease;
 }
 
 @media screen and (max-width:900px) {

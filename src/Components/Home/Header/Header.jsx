@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./Header.css"
 import { Link } from 'react-router-dom'
+import Buttons from "../Buttons/Buttons.jsx";
 
 const Header = () => {
 
@@ -14,8 +15,9 @@ const Header = () => {
         <div>
             <header className={menu ? "header":"show-mobile-menu"}>
                 <nav className="navbar">
-                    <Link to="/my-app/" className="logo">Coffe<span>.</span></Link>
+                <Link to="/my-app/" className="logo">Coffe<span>.</span></Link>
                     <ul className="menu-links">
+                        <Buttons/>
                         <li><Link to="/my-app/">HOME</Link></li>
                         <li><Link to="/my-app/">PRODUCTS</Link></li>
                         <li><Link to="/my-app/">ABOUT</Link></li>

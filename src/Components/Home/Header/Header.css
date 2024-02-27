@@ -34,7 +34,7 @@ header .navbar {
     color: white;
     text-decoration: none;
     font-size: 1.05rem;
-    transition: 0.2s ease;
+    transition: 0.4s ease;
 }
 
 .navbar a:hover {
@@ -51,6 +51,24 @@ header .navbar {
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
+}
+
+.navbar #whats-app {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-image: url(/src/Components/Home/Buttons/Images/menu.png);
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+
+}
+
+#whats-app:hover {
+    transition: 0.4s ease;
+    background-position: 20px;
 }
 
 #close-btn {
@@ -114,6 +132,8 @@ header .navbar {
         font-size: 1.1rem;
     }
 
-
+    .navbar #whats-app {
+        display: none;
+    }
 
 }
