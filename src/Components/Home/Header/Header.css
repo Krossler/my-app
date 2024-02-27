@@ -17,6 +17,14 @@ header .navbar {
     justify-content: space-between;
 }
 
+header .navbar .icons {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 0px;
+    
+}
+
 .navbar .logo {
     color: white;
     font-size: 2.6rem;
@@ -116,9 +124,4 @@ header .navbar {
         font-weight: 600;
         font-size: 1.1rem;
     }
-
-    .navbar #whats-app {
-        display: none;
-    }
-
 }

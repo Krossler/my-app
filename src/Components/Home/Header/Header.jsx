@@ -23,11 +23,13 @@ const Header = () => {
                         <li><Link to="/my-app/">PRODUCTS</Link></li>
                         <li><Link to="/my-app/">ABOUT</Link></li>
                         <li><Link to="/my-app/Contacto">CONTACT</Link></li>
-                        <Wp/>
-                        <Ig/>
-                        <Fc/>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
+                            <div className="icons">
+                                <Wp/>
+                                <Ig/>
+                                <Fc/>
+                            </div>
                     </ul>
                     <span id="menu-btn" className="material-symbols-outlined"
                         onClick={changeMenu} ><img src="" alt="" /></span>
