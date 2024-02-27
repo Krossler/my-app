@@ -1,0 +1,16 @@
+.position-wp {
+    display: flex;
+}
+
+.position-wp #whats-app {
+    background-image: url(/src/Components/Home/Buttons/Buttons-Wp/Images/menu.png);
+    background-size: 100%;
+    padding: 10px;
+    transition: 0.4s ease;
+    margin-top: -20px;
+    margin-inline: -8px;
+}
+
+#whats-app:hover {
+    filter: brightness(50%);
+}

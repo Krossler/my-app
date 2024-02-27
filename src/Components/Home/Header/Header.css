@@ -4,6 +4,9 @@ header {
     left: 0;
     width: 100%;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.315);
+    backdrop-filter: blur(2px);
+    
 }
 
 header .navbar {
@@ -51,24 +54,6 @@ header .navbar {
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
-}
-
-.navbar #whats-app {
-    display: flex;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: space-between;
-    background-image: url(/src/Components/Home/Buttons/Images/menu.png);
-    background-size: 100%;
-    width: 20px;
-    height: 20px;
-
-}
-
-#whats-app:hover {
-    transition: 0.4s ease;
-    background-position: 20px;
 }
 
 #close-btn {

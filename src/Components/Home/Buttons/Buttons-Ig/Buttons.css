@@ -1,0 +1,17 @@
+.position-ig {
+    display: flex;
+}
+
+.position-ig #instagram {
+    background-image: url(/src/Components/Home/Buttons/Buttons-Ig/Images/Ig.png);
+    background-size: 100%;
+    padding: 10px;
+    transition: 0.4s ease;
+    margin-top: -20px;
+    margin-inline: -7px;
+    filter: brightness(70%);
+}
+
+#instagram:hover {
+    filter: brightness(30%);
+}

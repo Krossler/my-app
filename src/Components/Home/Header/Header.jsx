@@ -1,7 +1,9 @@
 import { useState } from "react"
 import "./Header.css"
 import { Link } from 'react-router-dom'
-import Buttons from "../Buttons/Buttons.jsx";
+import Wp from "../Buttons/Buttons-Wp/Wp.jsx"
+import Ig from "../Buttons/Buttons-Ig/Ig.jsx"
+import Fc from "../Buttons/Buttons-Fc/Fc.jsx"
 
 const Header = () => {
 
@@ -17,11 +19,13 @@ const Header = () => {
                 <nav className="navbar">
                 <Link to="/my-app/" className="logo">Coffe<span>.</span></Link>
                     <ul className="menu-links">
-                        <Buttons/>
                         <li><Link to="/my-app/">HOME</Link></li>
                         <li><Link to="/my-app/">PRODUCTS</Link></li>
                         <li><Link to="/my-app/">ABOUT</Link></li>
                         <li><Link to="/my-app/Contacto">CONTACT</Link></li>
+                        <Wp/>
+                        <Ig/>
+                        <Fc/>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
                     </ul>
