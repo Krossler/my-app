@@ -1,6 +1,11 @@
 body {
+    background-color: rgb(36, 19, 6);
+    background-blend-mode: color-dodge;
+}
+
+body .fondo {
     height: 100vh;
-    background: url(./Components/Home/Header/Images/hero-bg.jpg);
+    background: url(./Components/Home/Header/Images/type-menu.jpg);
     background-position: center;
     background-size: cover;
 }

@@ -3,9 +3,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.315);
-    backdrop-filter: blur(2px);
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: 0.80s ease;
     
 }
 
@@ -15,13 +15,14 @@ header .navbar {
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
+    position: sticky;
 }
 
 header .navbar .icons {
     display: flex;
-    gap: 20px;
+    gap: 21px;
     list-style: none;
-    margin-left: 0px;
+    margin-left: -15px;
     
 }
 
@@ -29,22 +30,29 @@ header .navbar .icons {
     color: white;
     font-size: 2.6rem;
     font-weight: 600;
+    text-shadow:
+    0px 0px 10px black,
+    0 0 0.2em rgb(0, 0, 0),
+    0 0 0.2em rgb(0, 0, 0);
+  color: white;
+    
 }
 
 .navbar .logo span {
     color: chocolate;
+    
 }
 
 .navbar .menu-links {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     transition: 0.4s ease;
 }
 
@@ -62,6 +70,8 @@ header .navbar .icons {
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
+    
+    
 }
 
 #close-btn {
@@ -78,16 +88,6 @@ header .navbar .icons {
 
     header {
         padding: 20px 20px;
-    }
-    
-    header.show-mobile-menu::before {
-        content: "";
-        position: fixed;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        backdrop-filter: blur(3px);
     }
 
     #menu-btn {
@@ -107,7 +107,17 @@ header .navbar .icons {
         height: 100vh;
         background: white;
         padding: 70px 40px 0;
-        transition: left 0.20s ease;
+        transition: left 0.40s ease;
+    }
+
+    .show-mobile-menu::before {
+        content:"";
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(2px);
     }
 
     header.show-mobile-menu .navbar .menu-links{

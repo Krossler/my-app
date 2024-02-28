@@ -7,4 +7,5 @@ export default function Ig() {
       <li><a  href="https://wa.me/5491130151074"><div id="instagram"/></a></li>
     </div>
   )
+  
 }

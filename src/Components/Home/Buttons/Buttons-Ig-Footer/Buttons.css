@@ -1,0 +1,15 @@
+.position-ig-footer {
+    display: flex;
+}
+
+.position-ig-footer #instagram-footer {
+    background-image: url(/src/Components/Home/Buttons/Buttons-Ig/Images/Ig.png);
+    background-size: 100%;
+    padding: 10px;
+    transition: 0.4s ease;
+    margin: 0 10px;
+}
+
+#instagram-footer:hover {
+    filter: brightness(70%);
+}

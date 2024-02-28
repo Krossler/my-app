@@ -3,7 +3,6 @@ import "./Header.css"
 import { Link } from 'react-router-dom'
 import Wp from "../Buttons/Buttons-Wp/Wp.jsx"
 import Ig from "../Buttons/Buttons-Ig/Ig.jsx"
-//import Fc from "../Buttons/Buttons-Fc/Fc.jsx"
 
 const Header = () => {
 
@@ -19,10 +18,10 @@ const Header = () => {
                 <nav className="navbar">
                 <Link to="/my-app/" className="logo">Coffe<span>.</span></Link>
                     <ul className="menu-links">
-                        <li><Link to="/my-app/">HOME</Link></li>
-                        <li><Link to="/my-app/">PRODUCTS</Link></li>
-                        <li><Link to="/my-app/">ABOUT</Link></li>
-                        <li><Link to="/my-app/Contacto">CONTACT</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">HOME</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">NUESTRO MENU</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">QUIEN SOMOS</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/Contacto">CONTACTO</Link></li>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
                             <div className="icons">
@@ -33,7 +32,7 @@ const Header = () => {
                     <span id="menu-btn" className="material-symbols-outlined"
                         onClick={changeMenu} ><img src="" alt="" /></span>
                 </nav>
-            </header>        
+            </header>
         </div>
     )
 }

@@ -8,9 +8,26 @@
     padding: 10px;
     transition: 0.4s ease;
     margin-inline: -7px;
-    filter: brightness(70%);
+    filter: brightness(90%);
 }
 
 #instagram:hover {
-    filter: brightness(30%);
+    filter: brightness(70%);
+}
+
+@media screen and (max-width:900px) {
+
+.position-ig {
+    display: flex;
+    margin-top: 22rem;
+}
+
+.position-ig #instagram {
+    background-image: url(/src/Components/Home/Buttons/Buttons-Ig/Images/Ig.png);
+    background-size: 100%;
+    padding: 15px;
+    transition: 0.4s ease;
+    margin-inline: -7px;
+    filter: brightness(0%);
+}
 }

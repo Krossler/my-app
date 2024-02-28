@@ -1,0 +1,15 @@
+.position-wp-footer {
+    display: flex;
+}
+
+.position-wp-footer #whats-app-footer {
+    background-image: url(/src/Components/Home/Buttons/Buttons-Wp/Images/menu.png);
+    background-size: 100%;
+    padding: 11px;
+    transition: 0.4s ease;
+    margin: 0 10px;
+}
+
+#whats-app-footer:hover {
+    filter: brightness(70%);
+}
