@@ -5,7 +5,7 @@
 .position-wp #whats-app {
     background-image: url(/src/Components/Home/Buttons/Buttons-Wp/Images/menu.png);
     background-size: 100%;
-    padding: 10px;
+    padding: 10.5px;
     transition: 0.4s ease;
     margin-inline: -8px;
 }

@@ -3,7 +3,7 @@ import "./Header.css"
 import { Link } from 'react-router-dom'
 import Wp from "../Buttons/Buttons-Wp/Wp.jsx"
 import Ig from "../Buttons/Buttons-Ig/Ig.jsx"
-import Fc from "../Buttons/Buttons-Fc/Fc.jsx"
+//import Fc from "../Buttons/Buttons-Fc/Fc.jsx"
 
 const Header = () => {
 
@@ -28,7 +28,6 @@ const Header = () => {
                             <div className="icons">
                                 <Wp/>
                                 <Ig/>
-                                <Fc/>
                             </div>
                     </ul>
                     <span id="menu-btn" className="material-symbols-outlined"
