@@ -1,0 +1,50 @@
+
+.image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image1 #image {
+    margin-top: 100px;
+    height: 650px;
+    width: 400px;
+    background-image: url(/src/Components/Menu/Images/Carta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45vh;
+    transition: 0.5s;
+    
+}
+
+#image:hover {
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
+@media screen and (max-width:900px) {
+
+    .image1 #image {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background-size: 40vh;
+        height: 680px;
+        width: 300px;
+    }
+
+    #image:hover {
+        -webkit-transform:scale(1.0);
+        transform:scale(1.0);
+    }
+
+}
+
+@media screen and (max-height:700px) {
+
+    .image1 #image {
+        margin-top: -20px;
+        margin-bottom: -80px;
+    }
+
+}

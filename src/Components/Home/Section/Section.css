@@ -7,7 +7,7 @@
 
 .hero-section .content {
     color: white;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
@@ -44,7 +44,14 @@
 
 @media screen and (max-width:900px) {
 
+    .hero-section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
     .hero-section .content {
+        justify-content: center;
         text-align: center;
     }
 

@@ -16,12 +16,13 @@ const Header = () => {
         <div>
             <header className={menu ? "header":"show-mobile-menu"}>
                 <nav className="navbar">
-                <Link to="/my-app/" className="logo">Coffe<span>.</span></Link>
+                <Link to="/my-app/" className="logo">Coffee<span>.</span></Link>
                     <ul className="menu-links">
                         <li><Link onClick={changeMenu} to="/my-app/">HOME</Link></li>
-                        <li><Link onClick={changeMenu} to="/my-app/">NUESTRO MENU</Link></li>
-                        <li><Link onClick={changeMenu} to="/my-app/">QUIEN SOMOS</Link></li>
-                        <li><Link onClick={changeMenu} to="/my-app/Contacto">CONTACTO</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/Menu">NUESTRO MENU</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/Contacto">TRABAJA CON NOSOTROS</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">CONTACTO</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">CONTACTO</Link></li>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
                             <div className="icons">

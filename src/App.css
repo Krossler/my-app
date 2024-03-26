@@ -5,7 +5,18 @@ body {
 
 body .fondo {
     height: 100vh;
-    background: url(./Components/Home/Header/Images/type-menu.jpg);
+    background: url(./Components/Home/Header/Images/type-menu.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:900px) {
+
+    body .fondo {
+        height: 100vh;
+        background: url(./Components/Home/Header/Images/type-menu.png);
+        background-position: center;
+    }
+
 }

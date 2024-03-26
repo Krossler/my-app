@@ -9,10 +9,11 @@ export default function Footer() {
       <footer className='footerbody'>
           <div className='footer-conteiner'>
               <h3>Coffe.</h3>
-              <p>Proyecto comercial para cafeterias, cuenta funcionalidades de contacto directo para Whatsapp,
-                 Instagram, proveendo un marketing con aspectos teclogicos y futuristas para su local. 
-                 Tambien cuenta con funciones directas para Linkedin e email, facilitando la busqueda de 
-                 personal y la conexion directa entre un futuro empleado y empregador.
+              <p>Aplicacion online para empresas gastronomicas, cuenta con funcionalidades de contacto por Whatsapp y
+                 Instagram, proyectando una rapida acesibilidad para un posible cliente.
+                 Diseñada con aspectos comunicativos prospectando la publicidad de productos y servicios. 
+                 Tambien cuenta con funciones directas para Linkedin e email, facilitando la busqueda labural 
+                  e conexion entre empleado y empregador.
               </p>
               <ul>
               <div className='socials'>
@@ -21,7 +22,7 @@ export default function Footer() {
                   </div>
               </ul>
               <div className='footer-bottom'>
-                  <p>copyright &copy;2024 Coffe. desingned by 
+                  <p>copyright &copy;2024 Coffe. by 
                       <span className='span-footer'> Krossler</span>
                       </p>
               </div>
