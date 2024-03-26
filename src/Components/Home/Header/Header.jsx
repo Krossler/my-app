@@ -22,7 +22,7 @@ const Header = () => {
                         <li><Link onClick={changeMenu} to="/my-app/Menu">NUESTRO MENU</Link></li>
                         <li><Link onClick={changeMenu} to="/my-app/Contacto">TRABAJA CON NOSOTROS</Link></li>
                         <li><Link onClick={changeMenu} to="/my-app/">CONTACTO</Link></li>
-                        <li><Link onClick={changeMenu} to="/my-app/">CONTACTO</Link></li>
+                        <li><Link onClick={changeMenu} to="/my-app/">RUPTURE</Link></li>
                         <li><Link id="close-btn"
                             onClick={changeMenu}>CLOSE</Link></li>
                             <div className="icons">
