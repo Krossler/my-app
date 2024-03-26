@@ -16,7 +16,9 @@ body .fondo {
     body .fondo {
         height: 100vh;
         background: url(./Components/Home/Header/Images/type-menu.png);
-        background-position: center;
+        background-position: right;
+        background-size: 300%;
+
     }
 
 }
