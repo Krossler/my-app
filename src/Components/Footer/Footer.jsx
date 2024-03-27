@@ -22,7 +22,7 @@ export default function Footer() {
                   </div>
               </ul>
               <div className='footer-bottom'>
-                  <p>copyright &copy;2024 Coffe. by 
+                  <p>copyright &copy;2024 Coffee. by 
                       <span className='span-footer'> Krossler</span>
                       </p>
               </div>

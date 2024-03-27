@@ -8,7 +8,7 @@ body .fondo {
     background: url(./Components/Home/Header/Images/type-menu.png);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 @media screen and (max-width:900px) {
