@@ -4,7 +4,6 @@ import Section from './Components/Home/Section/Section.jsx';
 import Contacto from './Components/Contact/Contacto.jsx';
 import Menu from './Components/Menu/Menu.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from './Components/Footer/Footer.jsx';
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
           <Route path="my-app/contacto" element={<Contacto/>} />
           <Route path="my-app/menu" element={<Menu/>} />
         </Routes>
-        <Footer/>
       </BrowserRouter>
       
     </div>
