@@ -15,6 +15,7 @@
 .hero-section .content h1 {
     font-size: 3rem;
     max-width: 600px;
+    color: rgb(255, 255, 88);
 }
 
 .hero-section .content p {
@@ -36,10 +37,13 @@
     transition: 0.4s ease;
 }
 
+.hero-section .content button a {
+    text-decoration: none;
+    color: black;
+}
+
 .hero-section .content button:hover{
-    color: white;
-    background: chocolate;
-    
+    background:  rgb(255, 255, 88);
 }
 
 @media screen and (max-width:900px) {

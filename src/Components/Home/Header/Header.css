@@ -39,7 +39,7 @@ header .navbar .icons {
 }
 
 .navbar .logo span {
-    color: chocolate;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -57,7 +57,7 @@ header .navbar .icons {
 }
 
 .navbar a:hover {
-    color: chocolate;
+    color: rgb(255, 255, 88);
 }
 
 #menu-btn {
@@ -70,8 +70,6 @@ header .navbar .icons {
     background-repeat: no-repeat;
     width: 35px;
     height: 35px;
-    
-    
 }
 
 #close-btn {
@@ -81,7 +79,7 @@ header .navbar .icons {
 }
 
 #close-btn:hover {
-    color: chocolate;
+    color: rgb(255, 255, 88);
 }
 
 @media screen and (max-width:900px) {

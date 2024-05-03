@@ -5,20 +5,8 @@ body {
 
 body .fondo {
     height: 100vh;
-    background: url(./Components/Home/Header/Images/type-menu.png);
+    background: url(./Components/Home/Header/Images/Wallpaperpage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
-}
-
-@media screen and (max-width:900px) {
-
-    body .fondo {
-        height: 100vh;
-        background: url(./Components/Home/Header/Images/type-menu.png);
-        background-position: right;
-        background-size: 300%;
-
-    }
-
 }
